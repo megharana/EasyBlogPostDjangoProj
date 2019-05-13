@@ -29,12 +29,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin', 'django.contrib.auth',
+    'django.contrib.contenttypes', 'django.contrib.sessions',
+    'django.contrib.messages', 'django.contrib.staticfiles', 'posts'
 ]
 
 MIDDLEWARE = [
@@ -74,7 +71,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'practice',
-        'USERNAME': 'root',
+        'USER': 'root',
         'PASSWORD': 'ShowMe@Pwd123',
         'HOST': 'localhost',
         'PORT': '3306',
